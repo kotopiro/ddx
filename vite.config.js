@@ -7,7 +7,6 @@ import { viteStaticCopy } from 'vite-plugin-static-copy';
 import { logging, server as wisp } from '@mercuryworkshop/wisp-js/server';
 import { createBareServer } from "@tomphttp/bare-server-node";
 import { bareModulePath } from '@mercuryworkshop/bare-as-module3';
-import { epoxyPath } from "@mercuryworkshop/epoxy-transport";
 import { libcurlPath } from '@mercuryworkshop/libcurl-transport';
 import { baremuxPath } from '@mercuryworkshop/bare-mux/node';
 import { scramjetPath } from "@mercuryworkshop/scramjet/path";
